@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Calculator</title>
+<link rel="stylesheet" href="Exchange.css">
+</head>
+<body>
+    <section class="app">
+        <div class="header">
+            <div class="brand-container">
+                <div class="brand-logo">
+                    <img src="logo.jpg" alt="logo">
+                </div>
+                <div class="brand-name">
+                    TwoMen Ex
+                </div>
+            </div>
+            <div class="result-container">
+                <div class="result">
+                    0.00
+                </div>
+            </div>
+        </div>
+        <div class="divider-container">
+            <div class="divider">
+
+            </div>
+        </div>
+
+
+        <form class="form">
+            <div class="calc-container">
+                <div class="input-container">
+                    <label for="">input</label>
+                    <input type="number" placeholder="0.00" class="input" required autofocus>
+                </div>
+                <div class="from-container">
+                    <label for="">from</label>
+                    <select name="" id="from" class="select"></select>
+                </div>
+                <div class="to-container">
+                    <label for="">to</label>
+                    <select name="" id="to" class="select"></select>
+                </div>
+                <div class="calc-Btn-container">
+               <button class="cacl-btn">Calculate</button>
+                </div>
+            </div>
+        </form>
+        <div class="table-container">
+            <table id="table">
+                <tbody>
+                    <tr>
+                        <th>Date</th>
+                        <th>From</th>
+                        <th>To</th>
+                      </tr>
+                </tbody>
+                <tbody class="table-data">
+
+                </tbody>
+                
+            </table>
+        </div>
+        
+    </section>
+    
+    <script src="Exchange.js"></script>
+</body>
+</html>
